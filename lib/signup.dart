@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 class SignupPage extends StatefulWidget {
@@ -17,6 +19,7 @@ class _SignupPageState extends State<SignupPage> {
                 child: Stack(
                   children: <Widget>[
                     Container(
+                      height: 200,
                       padding: EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
                       child: Text(
                         'Signup',
